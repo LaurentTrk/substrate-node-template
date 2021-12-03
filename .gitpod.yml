@@ -7,5 +7,4 @@ ports:
    - port: 9944
 #     onOpen: open-preview
 
-image:
-  file: .gitpod.Dockerfile
+image: laurenttrk/gitpod-workspace-substrate:0.0.1
