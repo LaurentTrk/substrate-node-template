@@ -1,0 +1,10 @@
+# Commands to start on workspace startup
+tasks:
+   - before: source ~/.cargo/env 
+     init: cargo build --release
+# Ports to expose on workspace startup
+ports:
+   - port: 9944
+#     onOpen: open-preview
+
+image: laurenttrk/gitpod-workspace-substrate:0.0.1
